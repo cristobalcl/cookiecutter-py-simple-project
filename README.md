@@ -42,3 +42,5 @@ poetry run pre-commit install
 ```
 
 Run test suite with `nox`. To reuse previous environment use `nox -r`.
+
+Maybe you'll want to delete, rename, move, and/or edit `[project_slug]/tests/test_[project_slug].py` before your first commit.
