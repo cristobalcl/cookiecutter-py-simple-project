@@ -8,17 +8,35 @@ Basic project based on the series or articles:
 
 but without Django.
 
-Usage
------
+Dependencies
+------------
 
-Install:
+Project dependencies:
+
+* [pyenv](https://github.com/pyenv/pyenv#installation)
+* [Poetry](https://python-poetry.org/docs/#installation)
+* [nox](https://nox.thea.codes)
+
+Cookiecutter install:
 
 ```
 pip install cookiecutter
 ```
 
+Usage
+-----
+
 Create project:
 
 ```
 cookiecutter https://github.com/cristobalcl/cookiecutter-py-simple-project
+```
+
+Then:
+
+```
+cd [project_slug]
+git init
+poetry install
+poetry run pre-commit install
 ```
