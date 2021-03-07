@@ -40,3 +40,5 @@ git init
 poetry install
 poetry run pre-commit install
 ```
+
+Run test suite with `nox`. To reuse previous environment use `nox -r`.
